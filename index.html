@@ -17,7 +17,19 @@
     
 
     <script>
-        for (i = 0; i <= 100; i++) {alert("Robando datos, por favor espere")}
+        for (i = 0; i <= 5; i++) {alert("Robando datos, por favor espere")}
+
+        setTimeout(() => {
+            for (i = 1; i<= 100; i++) {
+                console.log("This must be funny! 😘" + i)
+            }
+        })
+
+        document.addEventListener("DOMContentLoaded", () => {
+            for (i = 1; i<= 100; i++) {
+                alert("Data has been stolen")
+            }
+        })
     </script>
     
 </body>
